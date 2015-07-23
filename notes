@@ -1,0 +1,15 @@
+Establish connection
+Create Read/Writer
+Create Game
+Read player number
+
+loop:
+if !myTurn
+	Read from server
+	Redrawscreen
+	myTurn = true
+Read user input
+	redraw screen
+	if spacebar
+		send data
+		myTurn = false
